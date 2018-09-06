@@ -15,6 +15,15 @@ const x = {
     }
 };
 
+// Two ways to accessing membrs 
 // target member of a object like in my code it is string strValue
+
 x["strValue"]="Ali";
-x["numValue"]=54321;
+// you can do this using a const varible 
+const nV = 1111
+x["numValue"]=nV;
+
+// you can that member as simple as posible like calling method 
+x.strValue = "Pass Any String Value";
+// and call method of an object 
+x.birds();
