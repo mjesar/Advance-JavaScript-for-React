@@ -18,8 +18,9 @@ const person = {
 // like calling this with object name referes the object
 person.profile();
 
-const profile = person.profile;
-// but calling it with stand alone doesnt now about this  
+// calling outside objcet and without object reference this method is undefined 
+// but we can use bind() method to solve this problem to refer this from object 
+const profile = person.profile.bind(person);
 profile();
 
 //console.log(profile);
