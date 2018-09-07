@@ -1,5 +1,5 @@
-// Arroy fuction are same as fucntion with simple syntax 
-// we difine function usiing function keyword but in arroy function 
+// Arrow fuction are same as fucntion with simple syntax 
+// we difine function usiing function keyword but in Arrow function 
 // we use => to create function 
 
 const square = number => number * number
@@ -30,7 +30,7 @@ const jobActive = jobs.filter(function(job){
 });
 console.log(jobActive);
 
-// now try this with arroyu function 
-const jobActiveArroy = jobs.filter(job =>  job.isActive);
+// now try this with arrow function 
+const jobActiveArrow = jobs.filter(job =>  job.isActive);
 
-console.log(jobActiveArroy);
+console.log(jobActiveArrow);
