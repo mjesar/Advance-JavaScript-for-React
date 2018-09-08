@@ -17,5 +17,9 @@ console.log(combine);
 const firstObject = {name: "Ali"};
 const secondObject = {job: "Instructor"};
 
-const combine2 = {...firstObject, ...secondObject, country:"Pakistan"}
+const combine2 = {...firstObject, ...secondObject, country:"Pakistan"};
 console.log(combine2);
+
+// and we can also clone an object or array 
+const clone = {...firstObject};
+console.log(clone);
