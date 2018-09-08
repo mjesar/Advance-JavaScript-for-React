@@ -34,3 +34,17 @@ console.log(jobActive);
 const jobActiveArrow = jobs.filter(job =>  job.isActive);
 
 console.log(jobActiveArrow);
+
+
+// this self 
+const person = {
+
+    talk() {
+        setTimeout(function(){
+            console.log("this", this);
+     }, 1000);
+    }
+
+};
+
+person.talk();
